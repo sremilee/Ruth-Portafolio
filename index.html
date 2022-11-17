@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortafolioEmily</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <dive class =menu>
+            <div class="img">
+            <img src="assets/img/logo.jpg" alt="">  
+        </dive>
+    </header>
+
+      <div class="Info1">
+        <nav class="navegacion">
+          <ul class= "menu_principal" >
+            <li><a href="fotografia.html">Fotografía</a></li>
+            <li><a href="#Tituloseccion1"> Ilustración</a></li>
+            <li><a href="#Tituloseccion2"> Branding</a></li>
+            <li><a href="#Tituloseccion3"> Marketing</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <dive class= "Info">
+        <div class="Name">
+          <div class="Content">
+        <p class="p-1"> 
+      </br>
+                      Bienvenidos a mi Portafolio </p>
+        </div>
+      </div>
+      </dive>
+
+    <div class="img2">
+      <img src="assets/img/perfil.jpg" alt="">
+    </div>
+    
+    <div class="Content2">
+      <p class="p-2"> 
+    </br>
+    </br>
+    </br>
+      Soy Ruth Emily Ramos Diseñadora Gráfica y Multimedia, me defino como una persona tímida pero dedicada y responsable. Si quiero algo lucho hasta conseguirlo, siempre trato de aprender nuevas cosas día con día para un crecimiento personal y profesional, aprendo muy rapido y más cuando es algo que me gusta.
+    </br>
+    </br>
+      Me gustaria involucrarme en proyectos y procesos ya que, disfruto 
+      mucho crear e idear estrategias artísticas.
+    </br>
+    </br>
+      Gusto por Fotografía, Producción audiovisual, Diseño Corporativo y publicitario y Diseño Web. </p>
+    </br>
+        </br>
+    </div>
+  
+    <div class="Content3">
+      <p class="p-3"> 
+    </div>
+
+        
+          <div class="Content4">
+            <p class="p-4"> 
+              <div class="icono1">
+            <a href="https://www.instagram.com/"><img src="assets/img/icon _instagram.png" alt=""width="33.82018280029297px;" height="33.82018280029297px" class="icono1"></a>
+              </div>
+              <div class="icono2">
+            <a href="mailto:ruthemilyramos@gmai.com"><img src="assets/img/icon _gmail_.png" alt=""alt=""width="33.82018280029297px;" height="33.82018280029297px" class="icono3"></a>
+              </div>
+              <div class="icono3">
+            <a href="https://www.linkedin.com/in/ruth-emily-ramos-6025751ab/"><img src="assets/img/linkedin_logo.png" alt=""alt=""width="40px" height="40px" class="icono3"></a>
+              </div>
+            </p>
+
+            <script>
+              const $form = validacion.querySelector('#form')
+              const $buttonMailto = validacion.querySelector('#enviar')
+          
+              $form.addEventListener('submit', handleSubmit)
+          
+              function handleSubmit(event) {
+                event.preventDefault()
+                const form = new FormData(this)
+                $buttonMailto.setAttribute('href', `mailto:ruthemilyramos@gmail.com.com? subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+                $buttonMailto.click()
+              }
+            </script>
+      
+            
+            <form id="form" action="" class="form">
+              <h3 class="tag"><span>Contactame:</span></h3>
+              <label for="name">Nombre Completo <span>*</span></label>
+              <input name="name" required type="text" id="name" placeholder="nombre">
+              <label for="email">Correo electrónico <span>*</span></label>
+              <input name="email" type="text" id="email" required placeholder="Escribe tu correo">
+              </br>
+             </br>
+              <label for="message">Comentarios</label>
+              <textarea id="message" name="message" id="" cols="30" rows="5"></textarea>
+              </br>
+              </br>
+              <button type="submit" class="btn primary full">Enviar</button>
+              <a href="mailto:ruthemilyramos@gmail.com" id="enviar"></a>
+            </form>
+           
+
+          
+          </div>
+        </div>
+      </section>
+            </div>
+  </body>
+
+
+
