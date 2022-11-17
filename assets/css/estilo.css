@@ -29,6 +29,7 @@ img {
   Fill: Solid;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 55px;
+  display: block;
 }
 
 .Name .Content { 
@@ -58,6 +59,7 @@ img {
   left: 1027px;
   width: 311px;
   height: 315px;
+  display: block;
   
 }
 
@@ -156,6 +158,7 @@ img {
   border-bottom-right-radius: 40px;
   border-bottom-left-radius: 40px;
   background: #E6D3CC;
+  display: block;
 }
 
 .icono1, .icono2, .icono3 {
@@ -183,6 +186,7 @@ form {
   font-style: normal;
   font-size: larger;
   color: #735652;
+  display: block;
 }
 
 

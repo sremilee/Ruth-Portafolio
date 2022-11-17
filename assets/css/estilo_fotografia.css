@@ -51,6 +51,7 @@ img {
 width: 485px;
 height: 114px;
 position: absolute;
+display: block;
 top: 350px;
 left: 50%;
 color: #735652;
@@ -83,6 +84,7 @@ display: block;
   width: 80%;
   font-family: 'Italiana', serif; 
   font-weight: bolder;
+  display: block;
 }
 
 .navegacion li {
@@ -122,6 +124,7 @@ display: block;
   width: 1200px;
   height: 416px;
   position: absolute;
+  display: block;
   top:902px;
   left: 70px;
   font-family: 'Raleway', sans-serif; 
@@ -178,10 +181,12 @@ Font-family: 'Italiana', serif;
 font-style: Bold;
 Font-size: 50px;
 color: #E6D3CC;
+display: block;
 }
 
 .ilustraciones {
 position: absolute;
+display: block;
 height: 91px;
 width: 259px;
 left: 530px;
@@ -214,6 +219,7 @@ top:191px;
 left: 769px;
 border-radius: 0px;
 background: #735652 ;
+display: block;
 }
 
 .caja2 {
@@ -224,6 +230,7 @@ left: 500px;
 top: 763px;
 border-radius: 0px;
 background: #735652 ;
+display: block;
 }
 
 .caja3 {
@@ -234,6 +241,7 @@ left: 69px;
 top: 38px;
 border-radius: 10px;
 background: #D9D9D9 ;
+display: block;
 }
 
 .ilustracion1 {
@@ -247,6 +255,7 @@ left:90px;
 
 .ilustracion2 {
 position: absolute;
+display: block;
 height: 417px;
 width: 295px; 
 top: 450px;
@@ -255,6 +264,7 @@ left:260px;
 
 .ilustracion3 {
 position: absolute;
+display: block;
 height: 417px;
 width: 295px; 
 top: 450px;
